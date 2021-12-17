@@ -1,2 +1,2 @@
-# AMLS-project
+# ELEC0134 AMLS TERM PROJECT
 Term project for ELEC0134 at UCL
