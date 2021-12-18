@@ -16,3 +16,12 @@ Gentle Introduction to the Adam Optimization Algorithm for Deep Learning' 2017
 https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
 
 
+Choice of loss op?
+
+
+Number of epochs?  Ensure that it converges
+
+
+Learning_rate? Ensure that it converges (not too small) and doesn't oscillate (not too large)
+
+
