@@ -25,3 +25,9 @@ Number of epochs?  Ensure that it converges
 Learning_rate? Ensure that it converges (not too small) and doesn't oscillate (not too large).
 
 
+
+Implement dropConnect or dropOut
+https://stackoverflow.com/questions/44355229/can-i-use-tf-nn-dropout-to-implement-dropconnect
+Dropconnect doesn't look like it helps with 1x [2048] neurons.
+
+
