@@ -22,6 +22,6 @@ Choice of loss op?
 Number of epochs?  Ensure that it converges
 
 
-Learning_rate? Ensure that it converges (not too small) and doesn't oscillate (not too large)
+Learning_rate? Ensure that it converges (not too small) and doesn't oscillate (not too large).
 
 
