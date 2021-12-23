@@ -1,0 +1,660 @@
+
+THE RESULTS WITH EDGE-DETECTION (10,150) ARE INFERIOR TO THE RAW DATA
+
+
+
+
+GLIOMA TUMOR DETECTION
+numOutputClasses =  2
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Training Accuracy: 0.7133
+Training Accuracy: 0.9037
+Training Accuracy: 0.9973
+Training Accuracy: 1.0000
+Training Accuracy: 1.0000
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 84.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 18   7]
+ [ 25 150]] 
+
+43 cases of a Glioma  tumor : 41.86 % chance of correct prediction
+157 cases of no Glioma  tumor : 95.54 % chance of correct prediction
+
+25 predictions of a Glioma  tumor : 72.0 % chance of correct prediction
+175 predictions of no Glioma  tumor : 85.71 % chance of correct prediction
+
+Overall accuracy =  84.0 %
+
+Session  2
+Training Accuracy: 0.7133
+Training Accuracy: 0.8363
+Training Accuracy: 0.9880
+Training Accuracy: 0.9980
+Training Accuracy: 0.9993
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 84.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 21   9]
+ [ 22 148]] 
+
+43 cases of a Glioma  tumor : 48.84 % chance of correct prediction
+157 cases of no Glioma  tumor : 94.27 % chance of correct prediction
+
+30 predictions of a Glioma  tumor : 70.0 % chance of correct prediction
+170 predictions of no Glioma  tumor : 87.06 % chance of correct prediction
+
+Overall accuracy =  84.5 %
+
+Session  3
+Training Accuracy: 0.7133
+Training Accuracy: 0.7580
+Training Accuracy: 0.9677
+Training Accuracy: 0.9960
+Training Accuracy: 1.0000
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 84.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 22  10]
+ [ 21 147]] 
+
+43 cases of a Glioma  tumor : 51.16 % chance of correct prediction
+157 cases of no Glioma  tumor : 93.63 % chance of correct prediction
+
+32 predictions of a Glioma  tumor : 68.75 % chance of correct prediction
+168 predictions of no Glioma  tumor : 87.5 % chance of correct prediction
+
+Overall accuracy =  84.5 %
+
+Session  4
+Training Accuracy: 0.7133
+Training Accuracy: 0.8723
+Training Accuracy: 0.9957
+Training Accuracy: 0.9990
+Training Accuracy: 0.9997
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 84.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 19   7]
+ [ 24 150]] 
+
+43 cases of a Glioma  tumor : 44.19 % chance of correct prediction
+157 cases of no Glioma  tumor : 95.54 % chance of correct prediction
+
+26 predictions of a Glioma  tumor : 73.08 % chance of correct prediction
+174 predictions of no Glioma  tumor : 86.21 % chance of correct prediction
+
+Overall accuracy =  84.5 %
+
+Session  5
+Training Accuracy: 0.5130
+Training Accuracy: 0.7377
+Training Accuracy: 0.9537
+Training Accuracy: 0.9907
+Training Accuracy: 0.9983
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 84.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 23  11]
+ [ 20 146]] 
+
+43 cases of a Glioma  tumor : 53.49 % chance of correct prediction
+157 cases of no Glioma  tumor : 92.99 % chance of correct prediction
+
+34 predictions of a Glioma  tumor : 67.65 % chance of correct prediction
+166 predictions of no Glioma  tumor : 87.95 % chance of correct prediction
+
+Overall accuracy =  84.5 %
+
+Mean Test Accuracy =  84.4 %
+
+
+MENINGIOMA TUMOR DETECTION
+numOutputClasses =  2
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Training Accuracy: 0.2937
+Training Accuracy: 0.7150
+Training Accuracy: 0.9483
+Training Accuracy: 0.9967
+Training Accuracy: 0.9977
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 77.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 25   3]
+ [ 43 129]] 
+
+68 cases of a Meningioma  tumor : 36.76 % chance of correct prediction
+132 cases of no Meningioma  tumor : 97.73 % chance of correct prediction
+
+28 predictions of a Meningioma  tumor : 89.29 % chance of correct prediction
+172 predictions of no Meningioma  tumor : 75.0 % chance of correct prediction
+
+Overall accuracy =  77.0 %
+
+Session  2
+Training Accuracy: 0.2860
+Training Accuracy: 0.7150
+Training Accuracy: 0.9510
+Training Accuracy: 0.9977
+Training Accuracy: 0.9983
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 74.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 19   3]
+ [ 49 129]] 
+
+68 cases of a Meningioma  tumor : 27.94 % chance of correct prediction
+132 cases of no Meningioma  tumor : 97.73 % chance of correct prediction
+
+22 predictions of a Meningioma  tumor : 86.36 % chance of correct prediction
+178 predictions of no Meningioma  tumor : 72.47 % chance of correct prediction
+
+Overall accuracy =  74.0 %
+
+Session  3
+Training Accuracy: 0.7150
+Training Accuracy: 0.8117
+Training Accuracy: 0.9983
+Training Accuracy: 0.9993
+Training Accuracy: 0.9997
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 75.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 22   3]
+ [ 46 129]] 
+
+68 cases of a Meningioma  tumor : 32.35 % chance of correct prediction
+132 cases of no Meningioma  tumor : 97.73 % chance of correct prediction
+
+25 predictions of a Meningioma  tumor : 88.0 % chance of correct prediction
+175 predictions of no Meningioma  tumor : 73.71 % chance of correct prediction
+
+Overall accuracy =  75.5 %
+
+Session  4
+Training Accuracy: 0.7050
+Training Accuracy: 0.7160
+Training Accuracy: 0.9883
+Training Accuracy: 0.9980
+Training Accuracy: 0.9993
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 76.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 24   3]
+ [ 44 129]] 
+
+68 cases of a Meningioma  tumor : 35.29 % chance of correct prediction
+132 cases of no Meningioma  tumor : 97.73 % chance of correct prediction
+
+27 predictions of a Meningioma  tumor : 88.89 % chance of correct prediction
+173 predictions of no Meningioma  tumor : 74.57 % chance of correct prediction
+
+Overall accuracy =  76.5 %
+
+Session  5
+Training Accuracy: 0.2850
+Training Accuracy: 0.7150
+Training Accuracy: 0.9293
+Training Accuracy: 0.9963
+Training Accuracy: 0.9977
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 74.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 20   4]
+ [ 48 128]] 
+
+68 cases of a Meningioma  tumor : 29.41 % chance of correct prediction
+132 cases of no Meningioma  tumor : 96.97 % chance of correct prediction
+
+24 predictions of a Meningioma  tumor : 83.33 % chance of correct prediction
+176 predictions of no Meningioma  tumor : 72.73 % chance of correct prediction
+
+Overall accuracy =  74.0 %
+
+Mean Test Accuracy =  75.4 %
+
+
+PITUITARY TUMOR DETECTION
+numOutputClasses =  2
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Training Accuracy: 0.2770
+Training Accuracy: 0.7247
+Training Accuracy: 0.9513
+Training Accuracy: 0.9843
+Training Accuracy: 0.9920
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 88.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 34   5]
+ [ 18 143]] 
+
+52 cases of a Pituitary  tumor : 65.38 % chance of correct prediction
+148 cases of no Pituitary  tumor : 96.62 % chance of correct prediction
+
+39 predictions of a Pituitary  tumor : 87.18 % chance of correct prediction
+161 predictions of no Pituitary  tumor : 88.82 % chance of correct prediction
+
+Overall accuracy =  88.5 %
+
+Session  2
+Training Accuracy: 0.2770
+Training Accuracy: 0.7237
+Training Accuracy: 0.9550
+Training Accuracy: 0.9840
+Training Accuracy: 0.9917
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 89.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 35   5]
+ [ 17 143]] 
+
+52 cases of a Pituitary  tumor : 67.31 % chance of correct prediction
+148 cases of no Pituitary  tumor : 96.62 % chance of correct prediction
+
+40 predictions of a Pituitary  tumor : 87.5 % chance of correct prediction
+160 predictions of no Pituitary  tumor : 89.38 % chance of correct prediction
+
+Overall accuracy =  89.0 %
+
+Session  3
+Training Accuracy: 0.7230
+Training Accuracy: 0.8220
+Training Accuracy: 0.9863
+Training Accuracy: 0.9943
+Training Accuracy: 0.9983
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 88.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 33   5]
+ [ 19 143]] 
+
+52 cases of a Pituitary  tumor : 63.46 % chance of correct prediction
+148 cases of no Pituitary  tumor : 96.62 % chance of correct prediction
+
+38 predictions of a Pituitary  tumor : 86.84 % chance of correct prediction
+162 predictions of no Pituitary  tumor : 88.27 % chance of correct prediction
+
+Overall accuracy =  88.0 %
+
+Session  4
+Training Accuracy: 0.7230
+Training Accuracy: 0.9360
+Training Accuracy: 0.9927
+Training Accuracy: 0.9970
+Training Accuracy: 0.9990
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 88.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 33   5]
+ [ 19 143]] 
+
+52 cases of a Pituitary  tumor : 63.46 % chance of correct prediction
+148 cases of no Pituitary  tumor : 96.62 % chance of correct prediction
+
+38 predictions of a Pituitary  tumor : 86.84 % chance of correct prediction
+162 predictions of no Pituitary  tumor : 88.27 % chance of correct prediction
+
+Overall accuracy =  88.0 %
+
+Session  5
+Training Accuracy: 0.7230
+Training Accuracy: 0.9650
+Training Accuracy: 0.9940
+Training Accuracy: 0.9970
+Training Accuracy: 0.9980
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 89.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[ 34   4]
+ [ 18 144]] 
+
+52 cases of a Pituitary  tumor : 65.38 % chance of correct prediction
+148 cases of no Pituitary  tumor : 97.3 % chance of correct prediction
+
+38 predictions of a Pituitary  tumor : 89.47 % chance of correct prediction
+162 predictions of no Pituitary  tumor : 88.89 % chance of correct prediction
+
+Overall accuracy =  89.0 %
+
+Mean Test Accuracy =  88.5 %
+
+
+NON-SPECIFIC TUMOR DETECTION
+numOutputClasses =  2
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Training Accuracy: 0.8483
+Training Accuracy: 0.8487
+Training Accuracy: 0.8623
+Training Accuracy: 1.0000
+Training Accuracy: 1.0000
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 90.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[163  19]
+ [  0  18]] 
+
+163 cases of a (non-specified)  tumor : 100.0 % chance of correct prediction
+37 cases of no (non-specified)  tumor : 48.65 % chance of correct prediction
+
+182 predictions of a (non-specified)  tumor : 89.56 % chance of correct prediction
+18 predictions of no (non-specified)  tumor : 100.0 % chance of correct prediction
+
+Overall accuracy =  90.5 %
+
+Session  2
+Training Accuracy: 0.1513
+Training Accuracy: 0.8487
+Training Accuracy: 0.8487
+Training Accuracy: 0.9507
+Training Accuracy: 1.0000
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 90.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[163  19]
+ [  0  18]] 
+
+163 cases of a (non-specified)  tumor : 100.0 % chance of correct prediction
+37 cases of no (non-specified)  tumor : 48.65 % chance of correct prediction
+
+182 predictions of a (non-specified)  tumor : 89.56 % chance of correct prediction
+18 predictions of no (non-specified)  tumor : 100.0 % chance of correct prediction
+
+Overall accuracy =  90.5 %
+
+Session  3
+Training Accuracy: 0.8487
+Training Accuracy: 0.8487
+Training Accuracy: 0.8977
+Training Accuracy: 1.0000
+Training Accuracy: 0.9993
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 91.0 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[163  18]
+ [  0  19]] 
+
+163 cases of a (non-specified)  tumor : 100.0 % chance of correct prediction
+37 cases of no (non-specified)  tumor : 51.35 % chance of correct prediction
+
+181 predictions of a (non-specified)  tumor : 90.06 % chance of correct prediction
+19 predictions of no (non-specified)  tumor : 100.0 % chance of correct prediction
+
+Overall accuracy =  91.0 %
+
+Session  4
+Training Accuracy: 0.1513
+Training Accuracy: 0.8487
+Training Accuracy: 0.8487
+Training Accuracy: 0.9497
+Training Accuracy: 1.0000
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 90.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[163  19]
+ [  0  18]] 
+
+163 cases of a (non-specified)  tumor : 100.0 % chance of correct prediction
+37 cases of no (non-specified)  tumor : 48.65 % chance of correct prediction
+
+182 predictions of a (non-specified)  tumor : 89.56 % chance of correct prediction
+18 predictions of no (non-specified)  tumor : 100.0 % chance of correct prediction
+
+Overall accuracy =  90.5 %
+
+Session  5
+Training Accuracy: 0.8487
+Training Accuracy: 0.8487
+Training Accuracy: 0.9333
+Training Accuracy: 1.0000
+Training Accuracy: 0.9997
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 90.5 %
+
+Confusion Matrix
+Actual values in X (left column= positive/ right column = negative)
+Predicted values in Y (top row = positive/ bottom row = negative)
+[[163  19]
+ [  0  18]] 
+
+163 cases of a (non-specified)  tumor : 100.0 % chance of correct prediction
+37 cases of no (non-specified)  tumor : 48.65 % chance of correct prediction
+
+182 predictions of a (non-specified)  tumor : 89.56 % chance of correct prediction
+18 predictions of no (non-specified)  tumor : 100.0 % chance of correct prediction
+
+Overall accuracy =  90.5 %
+
+Mean Test Accuracy =  90.6 %
+
+
+
+
+
+
+2  hidden layers
+[2048, 2048]  neurons
+
+MULTI-TYPE TUMOR DETECTION
+numOutputClasses =  4
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Training Accuracy: 0.3123
+Training Accuracy: 0.7367
+Training Accuracy: 0.9543
+Training Accuracy: 0.9960
+Training Accuracy: 0.9980
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 70.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[32 20  2  7]
+ [ 5 38  0  5]
+ [ 6  9 50  5]
+ [ 0  1  0 20]] 
+
+43 cases of Glioma : 74.42 % chance of correct prediction
+68 cases of Meningioma : 55.88 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 54.05 % chance of correct prediction
+
+61 predictions of Glioma : 52.46 % chance of correct prediction
+48 predictions of Meningioma : 79.17 % chance of correct prediction
+70 predictions of Pituitary : 71.43 % chance of correct prediction
+21 predictions of Healthy : 95.24 % chance of correct prediction
+
+Overall accuracy =  70.0 %
+
+Session  2
+Training Accuracy: 0.2770
+Training Accuracy: 0.7677
+Training Accuracy: 0.9647
+Training Accuracy: 0.9947
+Training Accuracy: 0.9970
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 69.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[30 21  2  8]
+ [ 6 38  0  2]
+ [ 6  9 50  7]
+ [ 1  0  0 20]] 
+
+43 cases of Glioma : 69.77 % chance of correct prediction
+68 cases of Meningioma : 55.88 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 54.05 % chance of correct prediction
+
+61 predictions of Glioma : 49.18 % chance of correct prediction
+46 predictions of Meningioma : 82.61 % chance of correct prediction
+72 predictions of Pituitary : 69.44 % chance of correct prediction
+21 predictions of Healthy : 95.24 % chance of correct prediction
+
+Overall accuracy =  69.0 %
+
+Session  3
+Training Accuracy: 0.2833
+Training Accuracy: 0.7617
+Training Accuracy: 0.9150
+Training Accuracy: 0.9827
+Training Accuracy: 0.9947
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 68.5 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[30 23  2  6]
+ [ 7 37  1  3]
+ [ 6  8 49  7]
+ [ 0  0  0 21]] 
+
+43 cases of Glioma : 69.77 % chance of correct prediction
+68 cases of Meningioma : 54.41 % chance of correct prediction
+52 cases of Pituitary : 94.23 % chance of correct prediction
+37 cases of Healthy : 56.76 % chance of correct prediction
+
+61 predictions of Glioma : 49.18 % chance of correct prediction
+48 predictions of Meningioma : 77.08 % chance of correct prediction
+70 predictions of Pituitary : 70.0 % chance of correct prediction
+21 predictions of Healthy : 100.0 % chance of correct prediction
+
+Overall accuracy =  68.5 %
+
+Session  4
+Training Accuracy: 0.2850
+Training Accuracy: 0.7530
+Training Accuracy: 0.9193
+Training Accuracy: 0.9887
+Training Accuracy: 0.9973
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 65.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[29 24  3  8]
+ [ 8 34  0  3]
+ [ 6  9 49  8]
+ [ 0  1  0 18]] 
+
+43 cases of Glioma : 67.44 % chance of correct prediction
+68 cases of Meningioma : 50.0 % chance of correct prediction
+52 cases of Pituitary : 94.23 % chance of correct prediction
+37 cases of Healthy : 48.65 % chance of correct prediction
+
+64 predictions of Glioma : 45.31 % chance of correct prediction
+45 predictions of Meningioma : 75.56 % chance of correct prediction
+72 predictions of Pituitary : 68.06 % chance of correct prediction
+19 predictions of Healthy : 94.74 % chance of correct prediction
+
+Overall accuracy =  65.0 %
+
+Session  5
+Training Accuracy: 0.1570
+Training Accuracy: 0.7617
+Training Accuracy: 0.9203
+Training Accuracy: 0.9883
+Training Accuracy: 0.9963
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 68.5 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[32 23  2  6]
+ [ 5 35  0  5]
+ [ 5  9 50  6]
+ [ 1  1  0 20]] 
+
+43 cases of Glioma : 74.42 % chance of correct prediction
+68 cases of Meningioma : 51.47 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 54.05 % chance of correct prediction
+
+63 predictions of Glioma : 50.79 % chance of correct prediction
+45 predictions of Meningioma : 77.78 % chance of correct prediction
+70 predictions of Pituitary : 71.43 % chance of correct prediction
+22 predictions of Healthy : 90.91 % chance of correct prediction
+
+Overall accuracy =  68.5 %
+
+Mean Test Accuracy =  68.2 %
+
+
+
+This is approximately the same result that we achieved with the individual experts, but slightly less accurate.
