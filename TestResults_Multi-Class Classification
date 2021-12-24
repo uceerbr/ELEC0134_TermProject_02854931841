@@ -1,0 +1,686 @@
+  MULTI-CLASS CLASSIFICATION USING A SINGLE MULTI-CLASS CLASSIFIER (2 LAYER MLP)
+  COMPARED WITH FOUR BINARY CLASSIFIERS (2 LAYER MLPs)
+
+
+2  hidden layers
+[2048, 2048]  neurons
+
+MULTI-STATE TUMOR DETECTION
+numOutputClasses =  4
+neurons_hidden = [2048, 2048]
+Image resolution = [64, 64]
+
+Session  1
+Epoch: 0001 cost=1.405991912
+Training Accuracy: 0.2853
+Epoch: 0021 cost=1.278097391
+Training Accuracy: 0.5043
+Epoch: 0041 cost=1.196517467
+Training Accuracy: 0.5180
+Epoch: 0061 cost=1.117308497
+Training Accuracy: 0.5480
+Epoch: 0081 cost=1.042051315
+Training Accuracy: 0.5780
+Epoch: 0101 cost=0.968773186
+Training Accuracy: 0.6130
+Epoch: 0121 cost=0.896777034
+Training Accuracy: 0.6557
+Epoch: 0141 cost=0.826186657
+Training Accuracy: 0.7050
+Epoch: 0161 cost=0.756969333
+Training Accuracy: 0.7497
+Epoch: 0181 cost=0.689725757
+Training Accuracy: 0.7910
+Epoch: 0201 cost=0.625668824
+Training Accuracy: 0.8337
+Epoch: 0221 cost=0.565015793
+Training Accuracy: 0.8593
+Epoch: 0241 cost=0.508535087
+Training Accuracy: 0.8823
+Epoch: 0261 cost=0.456823975
+Training Accuracy: 0.9057
+Epoch: 0281 cost=0.410122514
+Training Accuracy: 0.9193
+Epoch: 0301 cost=0.368177891
+Training Accuracy: 0.9310
+Epoch: 0321 cost=0.330633193
+Training Accuracy: 0.9413
+Epoch: 0341 cost=0.297628552
+Training Accuracy: 0.9480
+Epoch: 0361 cost=0.268491775
+Training Accuracy: 0.9527
+Epoch: 0381 cost=0.242822737
+Training Accuracy: 0.9600
+Epoch: 0401 cost=0.220388994
+Training Accuracy: 0.9650
+Epoch: 0421 cost=0.200373143
+Training Accuracy: 0.9680
+Epoch: 0441 cost=0.182735711
+Training Accuracy: 0.9730
+Epoch: 0461 cost=0.167222887
+Training Accuracy: 0.9773
+Epoch: 0481 cost=0.153601974
+Training Accuracy: 0.9787
+Epoch: 0501 cost=0.141469508
+Training Accuracy: 0.9797
+Epoch: 0521 cost=0.130481422
+Training Accuracy: 0.9823
+Epoch: 0541 cost=0.120629869
+Training Accuracy: 0.9833
+Epoch: 0561 cost=0.111858681
+Training Accuracy: 0.9840
+Epoch: 0581 cost=0.103836507
+Training Accuracy: 0.9857
+Epoch: 0601 cost=0.096595034
+Training Accuracy: 0.9867
+Epoch: 0621 cost=0.089975901
+Training Accuracy: 0.9873
+Epoch: 0641 cost=0.083993614
+Training Accuracy: 0.9880
+Epoch: 0661 cost=0.078531444
+Training Accuracy: 0.9897
+Epoch: 0681 cost=0.073523425
+Training Accuracy: 0.9900
+Epoch: 0701 cost=0.068846688
+Training Accuracy: 0.9920
+Epoch: 0721 cost=0.064662024
+Training Accuracy: 0.9927
+Epoch: 0741 cost=0.060786840
+Training Accuracy: 0.9927
+Epoch: 0761 cost=0.057211325
+Training Accuracy: 0.9927
+Epoch: 0781 cost=0.053890456
+Training Accuracy: 0.9940
+Epoch: 0801 cost=0.050834864
+Training Accuracy: 0.9943
+Epoch: 0821 cost=0.047994785
+Training Accuracy: 0.9947
+Epoch: 0841 cost=0.045392159
+Training Accuracy: 0.9953
+Epoch: 0861 cost=0.042966157
+Training Accuracy: 0.9957
+Epoch: 0881 cost=0.040661622
+Training Accuracy: 0.9957
+Epoch: 0901 cost=0.038543031
+Training Accuracy: 0.9960
+Epoch: 0921 cost=0.036571674
+Training Accuracy: 0.9963
+Epoch: 0941 cost=0.034725070
+Training Accuracy: 0.9963
+Epoch: 0961 cost=0.032986451
+Training Accuracy: 0.9967
+Epoch: 0981 cost=0.031336930
+Training Accuracy: 0.9967
+Session  1  Optimization Finished!
+Session  1  Test Accuracy: 82.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[34 10  0  6]
+ [ 7 53  0  4]
+ [ 0  4 52  2]
+ [ 2  1  0 25]] 
+
+43 cases of Glioma : 79.07 % chance of correct prediction
+68 cases of Meningioma : 77.94 % chance of correct prediction
+52 cases of Pituitary : 100.0 % chance of correct prediction
+37 cases of Healthy : 67.57 % chance of correct prediction
+
+50 predictions of Glioma : 68.0 % chance of correct prediction
+64 predictions of Meningioma : 82.81 % chance of correct prediction
+58 predictions of Pituitary : 89.66 % chance of correct prediction
+28 predictions of Healthy : 89.29 % chance of correct prediction
+
+Overall accuracy =  82.0 %
+
+Session  2
+Epoch: 0001 cost=1.391115665
+Training Accuracy: 0.2950
+Epoch: 0021 cost=1.273771644
+Training Accuracy: 0.5120
+Epoch: 0041 cost=1.187707305
+Training Accuracy: 0.5267
+Epoch: 0061 cost=1.105522156
+Training Accuracy: 0.5610
+Epoch: 0081 cost=1.027083397
+Training Accuracy: 0.5917
+Epoch: 0101 cost=0.950507402
+Training Accuracy: 0.6233
+Epoch: 0121 cost=0.874973297
+Training Accuracy: 0.6677
+Epoch: 0141 cost=0.801438391
+Training Accuracy: 0.7233
+Epoch: 0161 cost=0.730599105
+Training Accuracy: 0.7727
+Epoch: 0181 cost=0.662782967
+Training Accuracy: 0.8150
+Epoch: 0201 cost=0.598311782
+Training Accuracy: 0.8450
+Epoch: 0221 cost=0.538062274
+Training Accuracy: 0.8717
+Epoch: 0241 cost=0.482282281
+Training Accuracy: 0.8947
+Epoch: 0261 cost=0.431766003
+Training Accuracy: 0.9110
+Epoch: 0281 cost=0.386463940
+Training Accuracy: 0.9283
+Epoch: 0301 cost=0.345949620
+Training Accuracy: 0.9377
+Epoch: 0321 cost=0.310230553
+Training Accuracy: 0.9430
+Epoch: 0341 cost=0.278890252
+Training Accuracy: 0.9507
+Epoch: 0361 cost=0.251246065
+Training Accuracy: 0.9567
+Epoch: 0381 cost=0.227085516
+Training Accuracy: 0.9617
+Epoch: 0401 cost=0.205786750
+Training Accuracy: 0.9660
+Epoch: 0421 cost=0.187047064
+Training Accuracy: 0.9703
+Epoch: 0441 cost=0.170503214
+Training Accuracy: 0.9763
+Epoch: 0461 cost=0.155947223
+Training Accuracy: 0.9793
+Epoch: 0481 cost=0.142990842
+Training Accuracy: 0.9810
+Epoch: 0501 cost=0.131439894
+Training Accuracy: 0.9840
+Epoch: 0521 cost=0.121179737
+Training Accuracy: 0.9850
+Epoch: 0541 cost=0.111985862
+Training Accuracy: 0.9853
+Epoch: 0561 cost=0.103716776
+Training Accuracy: 0.9873
+Epoch: 0581 cost=0.096238680
+Training Accuracy: 0.9887
+Epoch: 0601 cost=0.089512736
+Training Accuracy: 0.9890
+Epoch: 0621 cost=0.083434105
+Training Accuracy: 0.9900
+Epoch: 0641 cost=0.077872135
+Training Accuracy: 0.9903
+Epoch: 0661 cost=0.072726056
+Training Accuracy: 0.9910
+Epoch: 0681 cost=0.068119697
+Training Accuracy: 0.9917
+Epoch: 0701 cost=0.063932814
+Training Accuracy: 0.9917
+Epoch: 0721 cost=0.060023841
+Training Accuracy: 0.9920
+Epoch: 0741 cost=0.056368306
+Training Accuracy: 0.9920
+Epoch: 0761 cost=0.052979827
+Training Accuracy: 0.9930
+Epoch: 0781 cost=0.049885131
+Training Accuracy: 0.9933
+Epoch: 0801 cost=0.047020443
+Training Accuracy: 0.9937
+Epoch: 0821 cost=0.044326320
+Training Accuracy: 0.9940
+Epoch: 0841 cost=0.041790560
+Training Accuracy: 0.9940
+Epoch: 0861 cost=0.039474420
+Training Accuracy: 0.9963
+Epoch: 0881 cost=0.037363179
+Training Accuracy: 0.9967
+Epoch: 0901 cost=0.035408188
+Training Accuracy: 0.9970
+Epoch: 0921 cost=0.033558402
+Training Accuracy: 0.9973
+Epoch: 0941 cost=0.031843301
+Training Accuracy: 0.9977
+Epoch: 0961 cost=0.030258806
+Training Accuracy: 0.9977
+Epoch: 0981 cost=0.028743591
+Training Accuracy: 0.9990
+Session  2  Optimization Finished!
+Session  2  Test Accuracy: 81.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[33  9  1  5]
+ [ 8 54  0  6]
+ [ 0  4 51  2]
+ [ 2  1  0 24]] 
+
+43 cases of Glioma : 76.74 % chance of correct prediction
+68 cases of Meningioma : 79.41 % chance of correct prediction
+52 cases of Pituitary : 98.08 % chance of correct prediction
+37 cases of Healthy : 64.86 % chance of correct prediction
+
+48 predictions of Glioma : 68.75 % chance of correct prediction
+68 predictions of Meningioma : 79.41 % chance of correct prediction
+57 predictions of Pituitary : 89.47 % chance of correct prediction
+27 predictions of Healthy : 88.89 % chance of correct prediction
+
+Overall accuracy =  81.0 %
+
+Session  3
+Epoch: 0001 cost=1.461182237
+Training Accuracy: 0.2770
+Epoch: 0021 cost=1.290597796
+Training Accuracy: 0.5307
+Epoch: 0041 cost=1.212089419
+Training Accuracy: 0.5153
+Epoch: 0061 cost=1.137958288
+Training Accuracy: 0.5370
+Epoch: 0081 cost=1.067888975
+Training Accuracy: 0.5693
+Epoch: 0101 cost=1.000103951
+Training Accuracy: 0.5993
+Epoch: 0121 cost=0.933426082
+Training Accuracy: 0.6283
+Epoch: 0141 cost=0.867972970
+Training Accuracy: 0.6643
+Epoch: 0161 cost=0.804402649
+Training Accuracy: 0.7100
+Epoch: 0181 cost=0.743238270
+Training Accuracy: 0.7617
+Epoch: 0201 cost=0.684674501
+Training Accuracy: 0.7990
+Epoch: 0221 cost=0.628738463
+Training Accuracy: 0.8290
+Epoch: 0241 cost=0.575930715
+Training Accuracy: 0.8550
+Epoch: 0261 cost=0.526504934
+Training Accuracy: 0.8747
+Epoch: 0281 cost=0.480530888
+Training Accuracy: 0.8920
+Epoch: 0301 cost=0.437782049
+Training Accuracy: 0.9083
+Epoch: 0321 cost=0.399021894
+Training Accuracy: 0.9240
+Epoch: 0341 cost=0.363608569
+Training Accuracy: 0.9313
+Epoch: 0361 cost=0.331628144
+Training Accuracy: 0.9390
+Epoch: 0381 cost=0.302460700
+Training Accuracy: 0.9473
+Epoch: 0401 cost=0.276247710
+Training Accuracy: 0.9517
+Epoch: 0421 cost=0.252493799
+Training Accuracy: 0.9573
+Epoch: 0441 cost=0.231182128
+Training Accuracy: 0.9637
+Epoch: 0461 cost=0.212080419
+Training Accuracy: 0.9677
+Epoch: 0481 cost=0.195112392
+Training Accuracy: 0.9723
+Epoch: 0501 cost=0.179956302
+Training Accuracy: 0.9767
+Epoch: 0521 cost=0.166168287
+Training Accuracy: 0.9793
+Epoch: 0541 cost=0.153686285
+Training Accuracy: 0.9820
+Epoch: 0561 cost=0.142564639
+Training Accuracy: 0.9830
+Epoch: 0581 cost=0.132489994
+Training Accuracy: 0.9853
+Epoch: 0601 cost=0.123402812
+Training Accuracy: 0.9860
+Epoch: 0621 cost=0.115166627
+Training Accuracy: 0.9860
+Epoch: 0641 cost=0.107620127
+Training Accuracy: 0.9867
+Epoch: 0661 cost=0.100784607
+Training Accuracy: 0.9880
+Epoch: 0681 cost=0.094509937
+Training Accuracy: 0.9883
+Epoch: 0701 cost=0.088666782
+Training Accuracy: 0.9893
+Epoch: 0721 cost=0.083319262
+Training Accuracy: 0.9900
+Epoch: 0741 cost=0.078429751
+Training Accuracy: 0.9900
+Epoch: 0761 cost=0.073896669
+Training Accuracy: 0.9913
+Epoch: 0781 cost=0.069694012
+Training Accuracy: 0.9923
+Epoch: 0801 cost=0.065850243
+Training Accuracy: 0.9933
+Epoch: 0821 cost=0.062241863
+Training Accuracy: 0.9933
+Epoch: 0841 cost=0.058980159
+Training Accuracy: 0.9933
+Epoch: 0861 cost=0.055896245
+Training Accuracy: 0.9933
+Epoch: 0881 cost=0.053040609
+Training Accuracy: 0.9933
+Epoch: 0901 cost=0.050338406
+Training Accuracy: 0.9937
+Epoch: 0921 cost=0.047830977
+Training Accuracy: 0.9937
+Epoch: 0941 cost=0.045442399
+Training Accuracy: 0.9950
+Epoch: 0961 cost=0.043149360
+Training Accuracy: 0.9953
+Epoch: 0981 cost=0.041021753
+Training Accuracy: 0.9957
+Session  3  Optimization Finished!
+Session  3  Test Accuracy: 83.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[35  8  2  5]
+ [ 7 55  0  4]
+ [ 0  4 50  2]
+ [ 1  1  0 26]] 
+
+43 cases of Glioma : 81.4 % chance of correct prediction
+68 cases of Meningioma : 80.88 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 70.27 % chance of correct prediction
+
+50 predictions of Glioma : 70.0 % chance of correct prediction
+66 predictions of Meningioma : 83.33 % chance of correct prediction
+56 predictions of Pituitary : 89.29 % chance of correct prediction
+28 predictions of Healthy : 92.86 % chance of correct prediction
+
+Overall accuracy =  83.0 %
+
+Session  4
+Epoch: 0001 cost=1.365176439
+Training Accuracy: 0.2850
+Epoch: 0021 cost=1.264777064
+Training Accuracy: 0.5330
+Epoch: 0041 cost=1.175700426
+Training Accuracy: 0.5403
+Epoch: 0061 cost=1.089714050
+Training Accuracy: 0.5700
+Epoch: 0081 cost=1.006347656
+Training Accuracy: 0.6003
+Epoch: 0101 cost=0.924778342
+Training Accuracy: 0.6403
+Epoch: 0121 cost=0.844831109
+Training Accuracy: 0.7010
+Epoch: 0141 cost=0.767264009
+Training Accuracy: 0.7547
+Epoch: 0161 cost=0.692709625
+Training Accuracy: 0.7970
+Epoch: 0181 cost=0.622013092
+Training Accuracy: 0.8393
+Epoch: 0201 cost=0.556049049
+Training Accuracy: 0.8667
+Epoch: 0221 cost=0.495405018
+Training Accuracy: 0.8930
+Epoch: 0241 cost=0.440418422
+Training Accuracy: 0.9107
+Epoch: 0261 cost=0.391159475
+Training Accuracy: 0.9250
+Epoch: 0281 cost=0.347345084
+Training Accuracy: 0.9393
+Epoch: 0301 cost=0.308863580
+Training Accuracy: 0.9520
+Epoch: 0321 cost=0.275031775
+Training Accuracy: 0.9580
+Epoch: 0341 cost=0.245749921
+Training Accuracy: 0.9630
+Epoch: 0361 cost=0.220259324
+Training Accuracy: 0.9670
+Epoch: 0381 cost=0.197970301
+Training Accuracy: 0.9713
+Epoch: 0401 cost=0.178665817
+Training Accuracy: 0.9737
+Epoch: 0421 cost=0.161829799
+Training Accuracy: 0.9783
+Epoch: 0441 cost=0.147033304
+Training Accuracy: 0.9810
+Epoch: 0461 cost=0.134068191
+Training Accuracy: 0.9847
+Epoch: 0481 cost=0.122499064
+Training Accuracy: 0.9860
+Epoch: 0501 cost=0.112332590
+Training Accuracy: 0.9867
+Epoch: 0521 cost=0.103256539
+Training Accuracy: 0.9870
+Epoch: 0541 cost=0.095280252
+Training Accuracy: 0.9883
+Epoch: 0561 cost=0.088068336
+Training Accuracy: 0.9893
+Epoch: 0581 cost=0.081551194
+Training Accuracy: 0.9903
+Epoch: 0601 cost=0.075676247
+Training Accuracy: 0.9913
+Epoch: 0621 cost=0.070338041
+Training Accuracy: 0.9913
+Epoch: 0641 cost=0.065472737
+Training Accuracy: 0.9923
+Epoch: 0661 cost=0.061019156
+Training Accuracy: 0.9923
+Epoch: 0681 cost=0.056980886
+Training Accuracy: 0.9940
+Epoch: 0701 cost=0.053269047
+Training Accuracy: 0.9940
+Epoch: 0721 cost=0.049917489
+Training Accuracy: 0.9947
+Epoch: 0741 cost=0.046854015
+Training Accuracy: 0.9953
+Epoch: 0761 cost=0.044054195
+Training Accuracy: 0.9953
+Epoch: 0781 cost=0.041412525
+Training Accuracy: 0.9957
+Epoch: 0801 cost=0.038980301
+Training Accuracy: 0.9957
+Epoch: 0821 cost=0.036762320
+Training Accuracy: 0.9957
+Epoch: 0841 cost=0.034695927
+Training Accuracy: 0.9963
+Epoch: 0861 cost=0.032744274
+Training Accuracy: 0.9963
+Epoch: 0881 cost=0.030959846
+Training Accuracy: 0.9967
+Epoch: 0901 cost=0.029274747
+Training Accuracy: 0.9980
+Epoch: 0921 cost=0.027708845
+Training Accuracy: 0.9987
+Epoch: 0941 cost=0.026266476
+Training Accuracy: 0.9990
+Epoch: 0961 cost=0.024931492
+Training Accuracy: 0.9990
+Epoch: 0981 cost=0.023687759
+Training Accuracy: 0.9990
+Session  4  Optimization Finished!
+Session  4  Test Accuracy: 81.5 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[33  9  0  5]
+ [ 9 54  0  6]
+ [ 0  4 52  2]
+ [ 1  1  0 24]] 
+
+43 cases of Glioma : 76.74 % chance of correct prediction
+68 cases of Meningioma : 79.41 % chance of correct prediction
+52 cases of Pituitary : 100.0 % chance of correct prediction
+37 cases of Healthy : 64.86 % chance of correct prediction
+
+47 predictions of Glioma : 70.21 % chance of correct prediction
+69 predictions of Meningioma : 78.26 % chance of correct prediction
+58 predictions of Pituitary : 89.66 % chance of correct prediction
+26 predictions of Healthy : 92.31 % chance of correct prediction
+
+Overall accuracy =  81.5 %
+
+Session  5
+Epoch: 0001 cost=1.384089470
+Training Accuracy: 0.2850
+Epoch: 0021 cost=1.271444082
+Training Accuracy: 0.5177
+Epoch: 0041 cost=1.184184432
+Training Accuracy: 0.5357
+Epoch: 0061 cost=1.100782752
+Training Accuracy: 0.5677
+Epoch: 0081 cost=1.021020532
+Training Accuracy: 0.5983
+Epoch: 0101 cost=0.943531990
+Training Accuracy: 0.6327
+Epoch: 0121 cost=0.867618144
+Training Accuracy: 0.6737
+Epoch: 0141 cost=0.793308973
+Training Accuracy: 0.7240
+Epoch: 0161 cost=0.721131742
+Training Accuracy: 0.7760
+Epoch: 0181 cost=0.651872396
+Training Accuracy: 0.8167
+Epoch: 0201 cost=0.586607456
+Training Accuracy: 0.8547
+Epoch: 0221 cost=0.525829077
+Training Accuracy: 0.8830
+Epoch: 0241 cost=0.469958752
+Training Accuracy: 0.9010
+Epoch: 0261 cost=0.419487864
+Training Accuracy: 0.9213
+Epoch: 0281 cost=0.374113619
+Training Accuracy: 0.9350
+Epoch: 0301 cost=0.333876371
+Training Accuracy: 0.9433
+Epoch: 0321 cost=0.298463196
+Training Accuracy: 0.9523
+Epoch: 0341 cost=0.267593503
+Training Accuracy: 0.9573
+Epoch: 0361 cost=0.240613461
+Training Accuracy: 0.9643
+Epoch: 0381 cost=0.217123777
+Training Accuracy: 0.9673
+Epoch: 0401 cost=0.196465656
+Training Accuracy: 0.9697
+Epoch: 0421 cost=0.178571776
+Training Accuracy: 0.9720
+Epoch: 0441 cost=0.162790745
+Training Accuracy: 0.9760
+Epoch: 0461 cost=0.148897409
+Training Accuracy: 0.9777
+Epoch: 0481 cost=0.136552393
+Training Accuracy: 0.9800
+Epoch: 0501 cost=0.125462070
+Training Accuracy: 0.9837
+Epoch: 0521 cost=0.115566641
+Training Accuracy: 0.9850
+Epoch: 0541 cost=0.106682472
+Training Accuracy: 0.9867
+Epoch: 0561 cost=0.098749846
+Training Accuracy: 0.9873
+Epoch: 0581 cost=0.091562979
+Training Accuracy: 0.9890
+Epoch: 0601 cost=0.085121244
+Training Accuracy: 0.9897
+Epoch: 0621 cost=0.079347171
+Training Accuracy: 0.9903
+Epoch: 0641 cost=0.073932819
+Training Accuracy: 0.9907
+Epoch: 0661 cost=0.069017157
+Training Accuracy: 0.9910
+Epoch: 0681 cost=0.064562462
+Training Accuracy: 0.9913
+Epoch: 0701 cost=0.060529586
+Training Accuracy: 0.9930
+Epoch: 0721 cost=0.056756496
+Training Accuracy: 0.9933
+Epoch: 0741 cost=0.053311884
+Training Accuracy: 0.9933
+Epoch: 0761 cost=0.050181393
+Training Accuracy: 0.9943
+Epoch: 0781 cost=0.047244426
+Training Accuracy: 0.9953
+Epoch: 0801 cost=0.044474669
+Training Accuracy: 0.9953
+Epoch: 0821 cost=0.041951753
+Training Accuracy: 0.9963
+Epoch: 0841 cost=0.039638601
+Training Accuracy: 0.9963
+Epoch: 0861 cost=0.037437577
+Training Accuracy: 0.9963
+Epoch: 0881 cost=0.035427202
+Training Accuracy: 0.9970
+Epoch: 0901 cost=0.033521213
+Training Accuracy: 0.9973
+Epoch: 0921 cost=0.031764776
+Training Accuracy: 0.9977
+Epoch: 0941 cost=0.030134320
+Training Accuracy: 0.9980
+Epoch: 0961 cost=0.028587034
+Training Accuracy: 0.9980
+Epoch: 0981 cost=0.027152847
+Training Accuracy: 0.9983
+Session  5  Optimization Finished!
+Session  5  Test Accuracy: 82.0 %
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[34  9  1  5]
+ [ 7 53  0  4]
+ [ 0  5 51  2]
+ [ 2  1  0 26]] 
+
+43 cases of Glioma : 79.07 % chance of correct prediction
+68 cases of Meningioma : 77.94 % chance of correct prediction
+52 cases of Pituitary : 98.08 % chance of correct prediction
+37 cases of Healthy : 70.27 % chance of correct prediction
+
+49 predictions of Glioma : 69.39 % chance of correct prediction
+64 predictions of Meningioma : 82.81 % chance of correct prediction
+58 predictions of Pituitary : 87.93 % chance of correct prediction
+29 predictions of Healthy : 89.66 % chance of correct prediction
+
+Overall accuracy =  82.0 %
+
+Mean Test Accuracy =  81.9 %
+
+
+
+
+
+
+
+RESULTS FROM THE HIGHEST CERTAINTY OF EACH EXPERT
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[34 10  2  4]
+ [ 6 52  0  4]
+ [ 0  5 50  2]
+ [ 3  1  0 27]] 
+
+43 cases of Glioma : 79.07 % chance of correct prediction
+68 cases of Meningioma : 76.47 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 72.97 % chance of correct prediction
+
+50 predictions of Glioma : 68.0 % chance of correct prediction
+62 predictions of Meningioma : 83.87 % chance of correct prediction
+57 predictions of Pituitary : 87.72 % chance of correct prediction
+31 predictions of Healthy : 87.1 % chance of correct prediction
+
+Overall accuracy =  81.5 %
+
+
+RESULTS ASSUMING THE ANYTUMOR EXPERT IS BETTER THAN THE 3-WAY CONSENSUS
+
+Confusion Matrix
+Actual values in X [left column=Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, right column=healthy (no tumor)]
+Predicted values in Y [top row =Glioma Tumor, next=Meningioma Tumor, next=Pituitary Tumor, bottom row=healthy (no tumor)]
+[[35 10  2  5]
+ [ 7 52  0  7]
+ [ 0  5 50  2]
+ [ 1  1  0 23]] 
+
+43 cases of Glioma : 81.4 % chance of correct prediction
+68 cases of Meningioma : 76.47 % chance of correct prediction
+52 cases of Pituitary : 96.15 % chance of correct prediction
+37 cases of Healthy : 62.16 % chance of correct prediction
+
+52 predictions of Glioma : 67.31 % chance of correct prediction
+66 predictions of Meningioma : 78.79 % chance of correct prediction
+57 predictions of Pituitary : 87.72 % chance of correct prediction
+25 predictions of Healthy : 92.0 % chance of correct prediction
+
+Overall accuracy =  80.0 %
+
+Using the AnyTumor expert as the overall judge of tumors doesn't help much (if at all) because few of the false negatives that it corrects are pushed into the correct tumor category.  That means that the any positives that it creates can cause an overall decrease in accuracy.
