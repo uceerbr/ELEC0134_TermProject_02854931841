@@ -2,6 +2,8 @@
 Term project for ELEC0134 at UCL
 
 Running the project script (https://github.com/uceerbr/ELEC0134_TermProject_02854931841/blob/main/AMLS_Term_Project.ipynb) requires the datasets (as provided in class) to be in the same directory in subfolders named accordingly trainingDataset and testDataset.
+#
+In this same folder are several text documents containing test results from running the project script under different conditions.  There was a bug in the headings of the binary confusion matrices that sometimes printed the headings of the multivariate cases (Gliom and Meningioma) instead of the desired binary headings (tumor or no tumor).  Please ignore those headers.  The numbers and the accuracy percentages are correct.
 
 #
 I ran the program in an environment that had these libraries installed:
